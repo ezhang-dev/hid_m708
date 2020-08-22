@@ -1,0 +1,2 @@
+SUBSYSTEM=="hid", ACTION=="add", ENV{HID_ID}=="0003:000028BD:*", \
+	RUN+="hid-rebind"
