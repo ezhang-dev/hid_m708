@@ -11,7 +11,7 @@ git clone https://github.com/ezhang-dev/hid_m708.git
 cd hid_m708
 make
 sudo make dkms_install
-echo tabletdblocalrc >> ~/.config/tabletdblocalrc
+cat tabletdblocalrc >> ~/.config/tabletdblocalrc
 ```
 
 ## Uninstallation
